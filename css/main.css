@@ -19,7 +19,7 @@ header nav{
     display: flex;
     justify-content: flex-end;
 }
-.nav-right-section{
+header .nav-right-section{
         display: flex;
         width: 250px;
         height: auto;
@@ -29,13 +29,13 @@ header nav{
         align-items: center;
 }
 /*Etiqueta con hijo A*/
-.nav-right-section a{
+header .nav-right-section a{
     /* colocar margen*/
     margin-right: 15px;
     color: rgba(0,0,0,0.87);
 }
 /*Imagen traida desde url en CSS*/
-.nav-right-section .menu-icon{
+header .nav-right-section .menu-icon{
     background-image: url('https://static.thenounproject.com/png/756729-200.png');
     background-repeat: no-repeat;
     background-position: center;
